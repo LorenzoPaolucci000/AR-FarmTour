@@ -1,0 +1,32 @@
+# Unity specific
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+sysinfo.txt
+*.unitypackage
+
+# Visual Studio
+.vs/
+.vscode/
+
+# Crash and build files
+*.pidb
+*.booproj
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.unityproj
+*.sln
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Other
+.DS_Store
