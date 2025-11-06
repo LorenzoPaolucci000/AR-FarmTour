@@ -9,6 +9,9 @@ UserSettings/
 MemoryCaptures/
 sysinfo.txt
 *.stacktrace
+# Unity temporary folder
+.utmp/
+
 
 # Rider / VSCode / Visual Studio
 .vs/
