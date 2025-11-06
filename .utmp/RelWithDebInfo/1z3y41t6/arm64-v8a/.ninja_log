@@ -1,0 +1,10 @@
+# ninja log v5
+46	8080	7841288674058105	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	5256b76391a8b07c
+20	8196	7841288675534527	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	c52abe640d4ae83e
+70	8389	7841288676633910	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	38d45c19c14342cb
+81	8472	7841288677047001	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	87b152113dc8288
+1	8989	7841288683831370	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	65e917322114f7d4
+59	9487	7841288687642779	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	cd4edac627bfe984
+94	9535	7841288688519476	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	8c8b3343a4a1f4f6
+35	9837	7841288691841093	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	efb2af92276dad4c
+9838	10339	7841288697283804	C:/Users/Utente/Desktop/Didattica UNICAM/MAGISTRALE/ExtendedReality/Project/Unity-AR-FarmTour/AR-FarmTour/AR-FarmTour/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1z3y41t6/obj/arm64-v8a/libgame.so	5a18026ad0b93574

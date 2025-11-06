@@ -1,4 +1,4 @@
-# Unity specific
+# Unity generated folders
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -8,11 +8,12 @@
 UserSettings/
 MemoryCaptures/
 sysinfo.txt
-*.unitypackage
+*.stacktrace
 
-# Visual Studio
+# Rider / VSCode / Visual Studio
 .vs/
 .vscode/
+.idea/
 
 # Crash and build files
 *.pidb
@@ -28,5 +29,6 @@ sysinfo.txt
 *.pdb
 *.mdb
 
-# Other
+# OS files
 .DS_Store
+Thumbs.db
