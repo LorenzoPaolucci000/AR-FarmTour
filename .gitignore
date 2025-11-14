@@ -35,3 +35,8 @@ sysinfo.txt
 # OS files
 .DS_Store
 Thumbs.db
+
+# Ignora i pacchetti Vuforia
+*.tgz
+Packages/com.ptc.vuforia.engine*
+Assets/Editor/Vuforia/*

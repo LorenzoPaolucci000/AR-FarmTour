@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="5-vegetablegarden" size="10.000000 10.000000" />
+    <ImageTarget name="2-panoramicview" size="10.000000 10.000000" />
+    <ImageTarget name="1-olivetree" size="10.000000 10.000000" />
+    <ImageTarget name="7-agingroom" size="10.000000 10.000000" />
+    <ImageTarget name="6-vineyard" size="10.000000 10.000000" />
+    <ImageTarget name="4-pigstop" size="10.000000 10.000000" />
+    <ImageTarget name="3-olivetrap" size="10.000000 10.000000" />
+  </Tracking>
+</QCARConfig>
