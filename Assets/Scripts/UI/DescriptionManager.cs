@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VectorGraphics;
 public class DescriptionManager : MonoBehaviour
 {
     // "Panel-Description" image
-    public Image displayImage; 
+    public SVGImage displayImage; 
     // Checkpoint index
     public TextMeshProUGUI checkpointNumberText;
     
