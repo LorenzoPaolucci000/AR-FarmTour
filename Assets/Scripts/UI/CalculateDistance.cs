@@ -3,15 +3,22 @@ using TMPro;
 
 public class CalculateDistance : MonoBehaviour
 {
-    public Camera arCamera; 
-    public TMP_Text distanceText;
+    public int nextMarkDistance; 
+    public TextMeshProUGUI uiDistanceText; 
 
-    void Update()
+
+    public void ShowMyDistance()
     {
-        if (arCamera == null || distanceText == null) return;
-
-        float distance = Vector3.Distance(transform.position, arCamera.transform.position);
-        
-        distanceText.text = distance.ToString("F0") + " cm";
+        if (uiDistanceText != null)
+        {
+            if (nextMarkDistance <= 0)
+            {
+                uiDistanceText.text = "";
+            }
+            else
+            {
+                uiDistanceText.text = "About " + nextMarkDistance.ToString() + " m";
+            }
+        }
     }
 }
