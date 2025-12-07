@@ -5,9 +5,7 @@ public class AudioManager : MonoBehaviour
 {
     [Header("Components")]
     public AudioSource mainAudioSource; 
-    // Pause state
-    private bool isManuallyPaused = false; 
-
+    
     [Header("Ref UI Toggles")]
     public Toggle playPauseToggle; // Toggle Play/Pause
     public Toggle muteToggle;      // Toggle Mute/Unmute
@@ -27,7 +25,6 @@ public class AudioManager : MonoBehaviour
 
         mainAudioSource.clip = clip;
         mainAudioSource.Play();
-        isManuallyPaused = false;
         if (playPauseToggle != null)
         {
             // Set ON = Play
@@ -50,12 +47,10 @@ public class AudioManager : MonoBehaviour
         if (isPlay)
         {
             if (mainAudioSource.clip != null) mainAudioSource.Play();
-            isManuallyPaused = false;
         }
         else
         {
             mainAudioSource.Pause();
-            isManuallyPaused = true;
         }
     }
 
@@ -68,7 +63,6 @@ public class AudioManager : MonoBehaviour
             mainAudioSource.Play();
             // To be sure that Play Toggle is ON
             if (playPauseToggle != null) playPauseToggle.SetIsOnWithoutNotify(true);
-            isManuallyPaused = false;
         }
     }
 
@@ -78,9 +72,4 @@ public class AudioManager : MonoBehaviour
         mainAudioSource.mute = isMuted;
     }
     
-    // Optional Stop
-    public void StopAudio()
-    {
-        mainAudioSource.Stop();
-    }
 }

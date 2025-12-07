@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class ObjectRotator : MonoBehaviour
 {
+    //TODO: consider to add this functionality to rotate the 3D object
     public float rotationSpeed = 0.2f;
 
     void Update()
